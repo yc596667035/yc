@@ -1,0 +1,9 @@
+// $(function(){
+//   $.ajax({
+//     type:"GET",
+//     url:"data.json",
+//     success:function(msg){
+//       console.log(msg)
+//     }
+//   })
+// })

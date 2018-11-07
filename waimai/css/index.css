@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: calc(100vw/7.5);
+}
+ul {
+  list-style: none;
+}
+header .header_top {
+  display: flex;
+  padding: 0.48rem 0.24rem 0.36rem 0.48rem;
+}
+header .header_top .logo {
+  width: 1.28rem;
+  height: 1.28rem;
+  margin-right: 0.32rem;
+  border-radius: 4px;
+}
+header .header_top .text {
+  flex: 1;
+}
+header .header_top .text h3 {
+  font-size: 0.32rem;
+  color: #000;
+  font-weight: bold;
+  line-height: 0.36rem;
+  margin: 0.16rem;
+}
+header .header_top .text p.timer {
+  font-size: 0.24rem;
+  line-height: 1;
+  color: #000;
+  font-weight: 200;
+  margin-bottom: 0.2rem;
+}
+header .header_top .text p.youhui {
+  font-size: 0.2rem;
+  line-height: 0.24rem;
+  color: #000;
+  font-weight: 200;
+}
